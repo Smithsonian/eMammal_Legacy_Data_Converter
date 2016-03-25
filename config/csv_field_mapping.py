@@ -35,10 +35,10 @@ fields = {
         "image_sequence_id": "Image Sequence ID",
         "image_path": "Image path",
         "image_ID": "Image ID",
-        "image File Name": "Image File Name",
-        "photo Type": "Photo Type",
-        "photo Type Identified by": "Photo Type Identified by",
-        "genus Species": "Genus Species",
+        "image_file_name": "Image File Name",
+        "photo_type": "Photo Type",
+        "photo_type_identified_by": "Photo Type Identified by",
+        "genus_species": "Genus Species",
         "iucn_id": "IUCN ID",
         "access_constraints": "Access Constraints",
         "date_time": "Date_Time",
@@ -53,5 +53,15 @@ fields = {
         "restrictions_on_access": "Restrictions on Access",
         "embargo_period_end_date": "Embargo Period End Date",
         "image_use_restrictions": "Image Use Restrictions"
-    }
+    },
+    "researcher_identifications":{
+        "iucn_id": "IUCN ID",
+        "sn": "Genus Species",
+        "age": "Age",
+        "sex":"Sex",
+        "individual_id": "Individual ID",
+        "animal_recognizable": "Animal recognizable"
+
+    },
+
 }

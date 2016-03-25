@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CameraTrapDeployment>
+    <ProjectId>{{ deployment['project_id'] | default('', true)}}</ProjectId>
+    <ProjectName>{{ deployment['project_name'] | default('', true) }}</ProjectName>
+    <ProjectObjectives>{{ deployment['project_objectives'] | default('', true) }}</ProjectObjectives>
+    <PublishDate>{{ deployment['publish_date'] }}</PublishDate>
+    <ProjectOwners>
+        <ProjectOwner>
+            <ProjectOwnerName>{{ deployment['project_owner'] | default('', true) }}</ProjectOwnerName>
+            <ProjectOwnerEmail>{{ deployment['project_owner_email'] | default('', true) }}</ProjectOwnerEmail>
+        </ProjectOwner>
+    </ProjectOwners>
+    <PrincipalInvestigators>
+        <PrincipalInvestigator>
+            <PrincipalInvestigatorName>{{ deployment['principal_investigator'] | default('', true)  }}</PrincipalInvestigatorName>
+            <PrincipalInvestigatorEmail>{{ deployment['principal_investigator_email'] | default('', true)  }}</PrincipalInvestigatorEmail>
+        </PrincipalInvestigator>
+    </PrincipalInvestigators>
+    <ProjectContacts>
+        <ProjectContact>
+            <ProjectContactName>{{ deployment['project_contact'] }}</ProjectContactName>
+            <ProjectContactEmail>{{ deployment['project_contact_email'] | default('', true)  }}</ProjectContactEmail>
+        </ProjectContact>
+    </ProjectContacts>
+    <ProjectLatitude>{{ deployment['project_latitude'] | default('', true)  }}</ProjectLatitude>
+    <ProjectLongitude>{{ deployment['project_longitude'] | default('', true)  }}</ProjectLongitude>
+    <CountryCode>{{ deployment['country_code'] }}</CountryCode>
+    <ProjectDataAccessandUseConstraints>{{ deployment['project_data_use_and_constraints'] | default('', true)  }}</ProjectDataAccessandUseConstraints>
+    <SubProjectId></SubProjectId>
+    <SubProjectName></SubProjectName>
+    <SubProjectDesign></SubProjectDesign>
+    <PlotName></PlotName>
+    <PlotTreatment></PlotTreatment>
+    <CameraDeploymentID>{{ deployment['camera_deployment_id'] | default('', true) }}</CameraDeploymentID>
+    <CameraSiteName>{{ deployment['camera_site_name'] | default('', true) }}</CameraSiteName>
+    <Originators>
+        <Originator>
+            <OriginatorName></OriginatorName>
+        </Originator>
+    </Originators>
+    <ProposedCameraDeploymentBeginDate></ProposedCameraDeploymentBeginDate>
+    <ProposedCameraDeploymentEndDate></ProposedCameraDeploymentEndDate>
+    <ProposedLatitude></ProposedLatitude>
+    <ProposedLongitude></ProposedLongitude>
+    <CameraDeploymentBeginDate>{{ deployment['camera_deployment_begin_date'] | default('', true) }}</CameraDeploymentBeginDate>
+    <CameraDeploymentEndDate>{{ deployment['camera_deployment_end_date'] | default('', true) }}</CameraDeploymentEndDate>
+    <CameraDeploymentNotes></CameraDeploymentNotes>
+    <ActualLatitude>{{ deployment['actual_latitude'] | default('', true)}}</ActualLatitude>
+    <ActualLongitude>{{ deployment['actual_longitude'] | default('', true) }}</ActualLongitude>
+    <CameraFailureDetails>{{ deployment['camera_failure_details'] and 'Camera Functioning' or 'Other Failure'  }}</CameraFailureDetails>
+    <Bait>{{ deployment['bait'] | default('', true)}}</Bait>
+    <BaitDescription></BaitDescription>
+    <Feature>{{ deployment['feature'] }}</Feature>
+    <FeatureMethodology>{{ deployment['feature_methodology'] | default('', true) }}</FeatureMethodology>
+    <AccessConstraints>{{ deployment['access_constraint' ] | default('', true) }}</AccessConstraints>
+    <CameraID>{{ deployment['camera_id'] | default('', true)}}</CameraID>
+    <DetectionDistance></DetectionDistance>
+    <QuietPeriodSetting>{{ deployment['quiet_period_setting'] | default('', true) }}</QuietPeriodSetting>
+    <ImageResolutionSetting></ImageResolutionSetting>
+    <SensitivitySetting></SensitivitySetting>
+    {% for sequence in deployment['sequences'] %}
+    <ImageSequence>
+        <ImageSequenceId>{{ sequence['sequence_id'] }}</ImageSequenceId>
+        <ImageSequenceBeginTime>{{ sequence['begin_date_time'] | default('', true) }}</ImageSequenceBeginTime>
+        <ImageSequenceEndTime>{{ sequence['end_date_time'] | default('', true) }}</ImageSequenceEndTime>
+        <VolunteerIdentifications>
+            <Identification>
+                <IUCNId></IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName></SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex></Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+        </VolunteerIdentifications>
+        <ResearcherIdentifications>
+            {% for ident2 in sequence['researcher_identifications'] %}
+            <Identification>
+                <IUCNId>{{ ident2['iucn_id'] | default('', true) }}</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>{{ ident2['sn'] | default('', true) }}</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age>{{ ident2['age'] | default('', true) }}</Age>
+                <Sex>{{ ident2['sex'] | default('', true) }}</Sex>
+                <IndividualId>{{ ident2['individual_id'] | default('', true) }}</IndividualId>
+                <AnimalRecognizable>{{ ident2['animal_recognizable'] | default('', true) }}</AnimalRecognizable>
+                <IndividualAnimalNotes>{{ ident2['individual_animal_notes'] | default('', true) }}</IndividualAnimalNotes>
+            </Identification>
+            {% endfor %}
+        </ResearcherIdentifications>
+        {% for image in sequence['images'] %}
+        <Image>
+            <ImageId>{{ image['image_id'] | default('', true) }}</ImageId>
+            <ImageFileName>{{ image['file_name'] | default('', true) }}</ImageFileName>
+            <ImageDateTime>{{ image['date_time_original'] | default('', true) }}</ImageDateTime>
+            <ImageOrder>{{ image['image_order'] | default('', true) }}</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>{{ image['digital_origin'] | default('', true) }}</digitalOrigin>
+            <PhotoType>{{ image['photo_type'] | default('', true) }}</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>{{ image['photo_type_identified_by'] | default('', true) }}</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess>{{ image['restrictions_on_access'] | default('', true) }}</RestrictionsonAccess>
+            <EmbargoPeriodEndDate>{{ image['embargo_period_end_date'] | default('', true) }}</EmbargoPeriodEndDate>
+            <ImageUseRestrictions>{{ image['image_use_restrictions'] | default('', true) }}</ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>{{ image['iucn_id'] | default('', true) }}</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>{{ image['sn'] | default('', true) }}</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count>{{ image['count'] | default('', true) }}</Count>
+                    <Age>{{ image['age'] | default('', true) }}</Age>
+                    <Sex>{{ image['sex'] | default('', true) }}</Sex>
+                    <IndividualId>{{ image['individual_id'] | default('', true) }}</IndividualId>
+                    <AnimalRecognizable>{{ image['animal_recognizable'] | default('', true) }}</AnimalRecognizable>
+                    <IndividualAnimalNotes>{{ image['individual_animal_notes'] | default('', true) }}</IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        {% endfor %}
+    </ImageSequence>
+    {% endfor %}
+
+</CameraTrapDeployment>
