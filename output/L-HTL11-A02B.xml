@@ -93,19 +93,6 @@
             </Identification>
             
             <Identification>
-                <IUCNId>3</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>Homo sapiens</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
                 <IUCNId>22715747</IUCNId>
                 <TSNId></TSNId>
                 <SpeciesScientificName>Garrulax affinis</SpeciesScientificName>
@@ -148,6 +135,19 @@
                 <IUCNId>1</IUCNId>
                 <TSNId></TSNId>
                 <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>3</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>Homo sapiens</SpeciesScientificName>
                 <SpeciesCommonName></SpeciesCommonName>
                 <Count></Count>
                 <Age></Age>
@@ -225,8 +225,8 @@
         </ResearcherIdentifications>
         
         <Image>
-            <ImageId>L-HTL11-A02B-006</ImageId>
-            <ImageFileName>L-HTL11-A02B-006.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-021</ImageId>
+            <ImageFileName>L-HTL11-A02B-021.JPG</ImageFileName>
             <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
             <ImageOrder>1</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
@@ -255,40 +255,10 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-001</ImageId>
-            <ImageFileName>L-HTL11-A02B-001.JPG</ImageFileName>
-            <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
-            <ImageOrder>2</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>staff</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>3</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>Homo sapiens</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
             <ImageId>L-HTL11-A02B-036</ImageId>
             <ImageFileName>L-HTL11-A02B-036.JPG</ImageFileName>
             <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
-            <ImageOrder>3</ImageOrder>
+            <ImageOrder>2</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>animal</PhotoType>
@@ -317,6 +287,36 @@
         <Image>
             <ImageId>L-HTL11-A02B-041</ImageId>
             <ImageFileName>L-HTL11-A02B-041.JPG</ImageFileName>
+            <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
+            <ImageOrder>3</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-046</ImageId>
+            <ImageFileName>L-HTL11-A02B-046.JPG</ImageFileName>
             <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
             <ImageOrder>4</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
@@ -375,13 +375,13 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-051</ImageId>
-            <ImageFileName>L-HTL11-A02B-051.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-001</ImageId>
+            <ImageFileName>L-HTL11-A02B-001.JPG</ImageFileName>
             <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
             <ImageOrder>6</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
+            <PhotoType>staff</PhotoType>
             <PhotoTypeIdentifications>
                 <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
             </PhotoTypeIdentifications>
@@ -390,9 +390,9 @@
             <ImageUseRestrictions></ImageUseRestrictions>
             <ImageIdentifications>
                 <Identification>
-                    <IUCNId>1</IUCNId>
+                    <IUCNId>3</IUCNId>
                     <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesScientificName>Homo sapiens</SpeciesScientificName>
                     <SpeciesCommonName></SpeciesCommonName>
                     <Count></Count>
                     <Age></Age>
@@ -405,8 +405,8 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-031</ImageId>
-            <ImageFileName>L-HTL11-A02B-031.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-026</ImageId>
+            <ImageFileName>L-HTL11-A02B-026.JPG</ImageFileName>
             <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
             <ImageOrder>7</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
@@ -435,40 +435,10 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-021</ImageId>
-            <ImageFileName>L-HTL11-A02B-021.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-006</ImageId>
+            <ImageFileName>L-HTL11-A02B-006.JPG</ImageFileName>
             <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
             <ImageOrder>8</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-046</ImageId>
-            <ImageFileName>L-HTL11-A02B-046.JPG</ImageFileName>
-            <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
-            <ImageOrder>9</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -498,6 +468,36 @@
             <ImageId>L-HTL11-A02B-011</ImageId>
             <ImageFileName>L-HTL11-A02B-011.JPG</ImageFileName>
             <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
+            <ImageOrder>9</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-031</ImageId>
+            <ImageFileName>L-HTL11-A02B-031.JPG</ImageFileName>
+            <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
             <ImageOrder>10</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
@@ -525,8 +525,8 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-026</ImageId>
-            <ImageFileName>L-HTL11-A02B-026.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-051</ImageId>
+            <ImageFileName>L-HTL11-A02B-051.JPG</ImageFileName>
             <ImageDateTime>2011-05-08T10:17:00</ImageDateTime>
             <ImageOrder>11</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
@@ -577,6 +577,175 @@
         <ResearcherIdentifications>
             
             <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
+                <IUCNId>1</IUCNId>
+                <TSNId></TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName></SpeciesCommonName>
+                <Count></Count>
+                <Age></Age>
+                <Sex>Unknown</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable>N</AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+            <Identification>
                 <IUCNId>10</IUCNId>
                 <TSNId></TSNId>
                 <SpeciesScientificName>Unknown Bird</SpeciesScientificName>
@@ -590,97 +759,6 @@
             </Identification>
             
             <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>22715747</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>Garrulax affinis</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
                 <IUCNId>9</IUCNId>
                 <TSNId></TSNId>
                 <SpeciesScientificName>Unknown Squirrel</SpeciesScientificName>
@@ -759,84 +837,6 @@
             </Identification>
             
             <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
-                <IUCNId>1</IUCNId>
-                <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
-                <Age></Age>
-                <Sex>Unknown</Sex>
-                <IndividualId></IndividualId>
-                <AnimalRecognizable>N</AnimalRecognizable>
-                <IndividualAnimalNotes></IndividualAnimalNotes>
-            </Identification>
-            
-            <Identification>
                 <IUCNId>22715747</IUCNId>
                 <TSNId></TSNId>
                 <SpeciesScientificName>Garrulax affinis</SpeciesScientificName>
@@ -850,9 +850,9 @@
             </Identification>
             
             <Identification>
-                <IUCNId>1</IUCNId>
+                <IUCNId>22715747</IUCNId>
                 <TSNId></TSNId>
-                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesScientificName>Garrulax affinis</SpeciesScientificName>
                 <SpeciesCommonName></SpeciesCommonName>
                 <Count></Count>
                 <Age></Age>
@@ -1151,640 +1151,10 @@
         </ResearcherIdentifications>
         
         <Image>
-            <ImageId>L-HTL11-A02B-054</ImageId>
-            <ImageFileName>L-HTL11-A02B-054.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-053</ImageId>
+            <ImageFileName>L-HTL11-A02B-053.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
             <ImageOrder>1</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>animal</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>10</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>Unknown Bird</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count>2</Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes>Tragopan pheasant</IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-013</ImageId>
-            <ImageFileName>L-HTL11-A02B-013.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>2</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-014</ImageId>
-            <ImageFileName>L-HTL11-A02B-014.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>3</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-017</ImageId>
-            <ImageFileName>L-HTL11-A02B-017.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>4</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-022</ImageId>
-            <ImageFileName>L-HTL11-A02B-022.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>5</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-023</ImageId>
-            <ImageFileName>L-HTL11-A02B-023.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>6</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-042</ImageId>
-            <ImageFileName>L-HTL11-A02B-042.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>7</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-037</ImageId>
-            <ImageFileName>L-HTL11-A02B-037.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>8</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>animal</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>22715747</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>Garrulax affinis</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count>2</Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-018</ImageId>
-            <ImageFileName>L-HTL11-A02B-018.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>9</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>animal</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>9</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>Unknown Squirrel</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count>1</Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-019</ImageId>
-            <ImageFileName>L-HTL11-A02B-019.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>10</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>animal</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>9</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>Unknown Squirrel</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count>1</Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-012</ImageId>
-            <ImageFileName>L-HTL11-A02B-012.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>11</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-002</ImageId>
-            <ImageFileName>L-HTL11-A02B-002.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>12</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-003</ImageId>
-            <ImageFileName>L-HTL11-A02B-003.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>13</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-004</ImageId>
-            <ImageFileName>L-HTL11-A02B-004.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>14</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-007</ImageId>
-            <ImageFileName>L-HTL11-A02B-007.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>15</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-008</ImageId>
-            <ImageFileName>L-HTL11-A02B-008.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>16</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-009</ImageId>
-            <ImageFileName>L-HTL11-A02B-009.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>17</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-034</ImageId>
-            <ImageFileName>L-HTL11-A02B-034.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>18</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-038</ImageId>
-            <ImageFileName>L-HTL11-A02B-038.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>19</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-039</ImageId>
-            <ImageFileName>L-HTL11-A02B-039.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>20</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-024</ImageId>
-            <ImageFileName>L-HTL11-A02B-024.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>21</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>animal</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>22715747</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>Garrulax affinis</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count>1</Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-043</ImageId>
-            <ImageFileName>L-HTL11-A02B-043.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>22</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -1814,7 +1184,7 @@
             <ImageId>L-HTL11-A02B-044</ImageId>
             <ImageFileName>L-HTL11-A02B-044.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>23</ImageOrder>
+            <ImageOrder>2</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -1841,10 +1211,10 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-047</ImageId>
-            <ImageFileName>L-HTL11-A02B-047.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-007</ImageId>
+            <ImageFileName>L-HTL11-A02B-007.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>24</ImageOrder>
+            <ImageOrder>3</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -1871,10 +1241,10 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-048</ImageId>
-            <ImageFileName>L-HTL11-A02B-048.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-043</ImageId>
+            <ImageFileName>L-HTL11-A02B-043.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>25</ImageOrder>
+            <ImageOrder>4</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -1901,10 +1271,130 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-049</ImageId>
-            <ImageFileName>L-HTL11-A02B-049.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-014</ImageId>
+            <ImageFileName>L-HTL11-A02B-014.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>26</ImageOrder>
+            <ImageOrder>5</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-013</ImageId>
+            <ImageFileName>L-HTL11-A02B-013.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>6</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-012</ImageId>
+            <ImageFileName>L-HTL11-A02B-012.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>7</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-009</ImageId>
+            <ImageFileName>L-HTL11-A02B-009.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>8</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-008</ImageId>
+            <ImageFileName>L-HTL11-A02B-008.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>9</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -1934,7 +1424,7 @@
             <ImageId>L-HTL11-A02B-052</ImageId>
             <ImageFileName>L-HTL11-A02B-052.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>27</ImageOrder>
+            <ImageOrder>10</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -1961,10 +1451,220 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-053</ImageId>
-            <ImageFileName>L-HTL11-A02B-053.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-022</ImageId>
+            <ImageFileName>L-HTL11-A02B-022.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>28</ImageOrder>
+            <ImageOrder>11</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-004</ImageId>
+            <ImageFileName>L-HTL11-A02B-004.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>12</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-002</ImageId>
+            <ImageFileName>L-HTL11-A02B-002.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>13</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-054</ImageId>
+            <ImageFileName>L-HTL11-A02B-054.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>14</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>animal</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>10</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>Unknown Bird</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count>2</Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes>Tragopan pheasant</IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-019</ImageId>
+            <ImageFileName>L-HTL11-A02B-019.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>15</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>animal</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>9</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>Unknown Squirrel</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-018</ImageId>
+            <ImageFileName>L-HTL11-A02B-018.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>16</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>animal</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>9</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>Unknown Squirrel</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-003</ImageId>
+            <ImageFileName>L-HTL11-A02B-003.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>17</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-049</ImageId>
+            <ImageFileName>L-HTL11-A02B-049.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>18</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -1994,7 +1694,7 @@
             <ImageId>L-HTL11-A02B-027</ImageId>
             <ImageFileName>L-HTL11-A02B-027.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>29</ImageOrder>
+            <ImageOrder>19</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -2024,7 +1724,7 @@
             <ImageId>L-HTL11-A02B-028</ImageId>
             <ImageFileName>L-HTL11-A02B-028.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>30</ImageOrder>
+            <ImageOrder>20</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -2051,13 +1751,13 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-029</ImageId>
-            <ImageFileName>L-HTL11-A02B-029.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-037</ImageId>
+            <ImageFileName>L-HTL11-A02B-037.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>31</ImageOrder>
+            <ImageOrder>21</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
+            <PhotoType>animal</PhotoType>
             <PhotoTypeIdentifications>
                 <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
             </PhotoTypeIdentifications>
@@ -2066,11 +1766,11 @@
             <ImageUseRestrictions></ImageUseRestrictions>
             <ImageIdentifications>
                 <Identification>
-                    <IUCNId>1</IUCNId>
+                    <IUCNId>22715747</IUCNId>
                     <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesScientificName>Garrulax affinis</SpeciesScientificName>
                     <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
+                    <Count>2</Count>
                     <Age></Age>
                     <Sex>Unknown</Sex>
                     <IndividualId></IndividualId>
@@ -2081,10 +1781,40 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-032</ImageId>
-            <ImageFileName>L-HTL11-A02B-032.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-024</ImageId>
+            <ImageFileName>L-HTL11-A02B-024.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
-            <ImageOrder>32</ImageOrder>
+            <ImageOrder>22</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>animal</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22715747</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>Garrulax affinis</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-023</ImageId>
+            <ImageFileName>L-HTL11-A02B-023.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>23</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -2114,6 +1844,276 @@
             <ImageId>L-HTL11-A02B-033</ImageId>
             <ImageFileName>L-HTL11-A02B-033.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>24</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-034</ImageId>
+            <ImageFileName>L-HTL11-A02B-034.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>25</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-029</ImageId>
+            <ImageFileName>L-HTL11-A02B-029.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>26</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-038</ImageId>
+            <ImageFileName>L-HTL11-A02B-038.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>27</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-039</ImageId>
+            <ImageFileName>L-HTL11-A02B-039.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>28</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-042</ImageId>
+            <ImageFileName>L-HTL11-A02B-042.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>29</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-048</ImageId>
+            <ImageFileName>L-HTL11-A02B-048.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>30</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-032</ImageId>
+            <ImageFileName>L-HTL11-A02B-032.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>31</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-017</ImageId>
+            <ImageFileName>L-HTL11-A02B-017.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
+            <ImageOrder>32</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-047</ImageId>
+            <ImageFileName>L-HTL11-A02B-047.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:58:00</ImageDateTime>
             <ImageOrder>33</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
@@ -2141,8 +2141,8 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-025</ImageId>
-            <ImageFileName>L-HTL11-A02B-025.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-005</ImageId>
+            <ImageFileName>L-HTL11-A02B-005.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
             <ImageOrder>34</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
@@ -2201,70 +2201,10 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-040</ImageId>
-            <ImageFileName>L-HTL11-A02B-040.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
-            <ImageOrder>36</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
             <ImageId>L-HTL11-A02B-015</ImageId>
             <ImageFileName>L-HTL11-A02B-015.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
-            <ImageOrder>37</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-030</ImageId>
-            <ImageFileName>L-HTL11-A02B-030.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
-            <ImageOrder>38</ImageOrder>
+            <ImageOrder>36</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -2294,7 +2234,7 @@
             <ImageId>L-HTL11-A02B-020</ImageId>
             <ImageFileName>L-HTL11-A02B-020.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
-            <ImageOrder>39</ImageOrder>
+            <ImageOrder>37</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -2321,70 +2261,10 @@
         </Image>
         
         <Image>
-            <ImageId>L-HTL11-A02B-050</ImageId>
-            <ImageFileName>L-HTL11-A02B-050.JPG</ImageFileName>
+            <ImageId>L-HTL11-A02B-025</ImageId>
+            <ImageFileName>L-HTL11-A02B-025.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
-            <ImageOrder>40</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-005</ImageId>
-            <ImageFileName>L-HTL11-A02B-005.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
-            <ImageOrder>41</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
-            <digitalOrigin>born digital</digitalOrigin>
-            <PhotoType>blank</PhotoType>
-            <PhotoTypeIdentifications>
-                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
-            </PhotoTypeIdentifications>
-            <RestrictionsonAccess></RestrictionsonAccess>
-            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
-            <ImageUseRestrictions></ImageUseRestrictions>
-            <ImageIdentifications>
-                <Identification>
-                    <IUCNId>1</IUCNId>
-                    <TSNId></TSNId>
-                    <SpeciesScientificName>No Animal</SpeciesScientificName>
-                    <SpeciesCommonName></SpeciesCommonName>
-                    <Count></Count>
-                    <Age></Age>
-                    <Sex>Unknown</Sex>
-                    <IndividualId></IndividualId>
-                    <AnimalRecognizable>N</AnimalRecognizable>
-                    <IndividualAnimalNotes></IndividualAnimalNotes>
-                </Identification>
-            </ImageIdentifications>
-        </Image>
-        
-        <Image>
-            <ImageId>L-HTL11-A02B-055</ImageId>
-            <ImageFileName>L-HTL11-A02B-055.JPG</ImageFileName>
-            <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
-            <ImageOrder>42</ImageOrder>
+            <ImageOrder>38</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -2414,7 +2294,67 @@
             <ImageId>L-HTL11-A02B-035</ImageId>
             <ImageFileName>L-HTL11-A02B-035.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
-            <ImageOrder>43</ImageOrder>
+            <ImageOrder>39</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-040</ImageId>
+            <ImageFileName>L-HTL11-A02B-040.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
+            <ImageOrder>40</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-050</ImageId>
+            <ImageFileName>L-HTL11-A02B-050.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
+            <ImageOrder>41</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>born digital</digitalOrigin>
             <PhotoType>blank</PhotoType>
@@ -2443,6 +2383,66 @@
         <Image>
             <ImageId>L-HTL11-A02B-045</ImageId>
             <ImageFileName>L-HTL11-A02B-045.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
+            <ImageOrder>42</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-030</ImageId>
+            <ImageFileName>L-HTL11-A02B-030.JPG</ImageFileName>
+            <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
+            <ImageOrder>43</ImageOrder>
+            <ImageInterestRanking></ImageInterestRanking>
+            <digitalOrigin>born digital</digitalOrigin>
+            <PhotoType>blank</PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy>WANG Fang</PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>1</IUCNId>
+                    <TSNId></TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName></SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex>Unknown</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable>N</AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-HTL11-A02B-055</ImageId>
+            <ImageFileName>L-HTL11-A02B-055.JPG</ImageFileName>
             <ImageDateTime>2011-05-16T13:59:00</ImageDateTime>
             <ImageOrder>44</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>

@@ -1,1 +1,5 @@
-ERROR:root:Error Processing not all required files : /Users/jnordling/projects/emammal-csv-manifest/sample-data/L-HTL11-A01A
+ERROR:root:Expexting field `Embargo Period` in/Users/jnordling/projects/emammal-csv-manifest/sample-data/wcs-sample-data/L-HTL11-A01A/Image.csv
+ERROR:root:Expexting field `IUCN Status` in/Users/jnordling/projects/emammal-csv-manifest/sample-data/wcs-sample-data/L-HTL11-A01A/Image.csv
+ERROR:root:Expexting field `Individual Animal Notes` in/Users/jnordling/projects/emammal-csv-manifest/sample-data/wcs-sample-data/L-HTL11-A01A/Image.csv
+ERROR:root:Invalid Filename /Users/jnordling/projects/emammal-csv-manifest/sample-data/wcs-sample-data/L-HTL11-A01B/Deployments.csv must match [ Deployment.csv, Image.csv, Project.csv ]
+ERROR:root:Invalid Filename /Users/jnordling/projects/emammal-csv-manifest/sample-data/wcs-sample-data/L-HTL11-A01B/Images.csv must match [ Deployment.csv, Image.csv, Project.csv ]

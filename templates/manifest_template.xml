@@ -97,7 +97,7 @@
         <Image>
             <ImageId>{{ image['image_id'] | default('', true) }}</ImageId>
             <ImageFileName>{{ image['file_name'] | default('', true) }}</ImageFileName>
-            <ImageDateTime>{{ image['date_time_original'] | default('', true) }}</ImageDateTime>
+            <ImageDateTime>{{ image['date_time'] | default('', true) }}</ImageDateTime>
             <ImageOrder>{{ image['image_order'] | default('', true) }}</ImageOrder>
             <ImageInterestRanking></ImageInterestRanking>
             <digitalOrigin>{{ image['digital_origin'] | default('', true) }}</digitalOrigin>
