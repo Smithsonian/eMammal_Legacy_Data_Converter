@@ -52,6 +52,24 @@ fields = {
         "restrictions_on_access": "Restrictions on Access",
         "embargo_period_end_date": "Embargo Period",
         "image_use_restrictions": "Image Use Restrictions"
+    },
+    "sequence":{
+        "observation_type":"Observation Type",
+        "deployment_id":"Deployment ID",
+        "sequence_id":"Image Sequence ID",
+        "begin_date_time":"Date_Time Begin",
+        "end_date_time":"Date_Time End",
+        "sn":"Genus species",
+        "cn":"Species Common Name",
+        "age":"Age",
+        "sex":"Sex",
+        "individual_id":"Individual ID",
+        "count":"Count",
+        "animal_recognizable":"Animal recognizable",
+        "individual_animal_notes":"Individual Animal Notes",
+        "tsn_id":"TSN ID",
+        "iucn_id":"IUCN ID",
+        "iucn_status":"IUCN Status"
     }
 
 }

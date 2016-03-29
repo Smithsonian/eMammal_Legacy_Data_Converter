@@ -14,26 +14,36 @@ import logging
 #Test URl = /Users/jnordling/projects/emammal-csv-manifest/output/L-HTL11-A01B.xml
 
 
-root_directory = '/Users/jnordling/projects/emammal-csv-manifest/sample-data/wcs-sample-data'
+root_directory = '/Users/jnordling/projects/emammal-csv-manifest/sample-data/emammal-sample-data'
 output_directory = '/Users/jnordling/projects/emammal-csv-manifest/output'
 
 DEPLOYMENT_FILE = "Deployment.csv"
 IMAGE_FILE = "Image.csv"
 PROJECT_FILE = "Project.csv"
+SEQUENCE_FILE = "Sequence.csv"
 
 fields = f_map.fields # Fields mapping from config
-required_files = [DEPLOYMENT_FILE, IMAGE_FILE, PROJECT_FILE]
 
-logging.basicConfig(filename='error.log',filemode='w', level=logging.DEBUG)
+emammal_required_files = [DEPLOYMENT_FILE, IMAGE_FILE, PROJECT_FILE, SEQUENCE_FILE]
+wcs_required_files = [DEPLOYMENT_FILE, IMAGE_FILE, PROJECT_FILE]
+
+logging.basicConfig(filename='error.log', filemode='w', level=logging.DEBUG)
 env = Environment(loader=FileSystemLoader('templates'))
 
 template = env.get_template('manifest_template.xml')
 
-date_time_format ='%Y-%m-%dT%H:%M:%S'
+date_time_format = '%Y-%m-%dT%H:%M:%S'
 year_month_date_format = '%Y-%m-%d'
 
+emammal_validator_type = True
+wcs_validator_type = False
+
+
 def get_dir_to_process_way(directory):
-    return [os.path.join(directory, x) for x in os.listdir(directory) if os.path.isdir(os.path.join(directory, x))]
+    directories = [os.path.join(directory, x) for x in os.listdir(directory) if os.path.isdir(os.path.join(directory, x))]
+    if len(directories) == 0:
+        directories.append(directory)
+    return directories
 
 
 
@@ -50,8 +60,10 @@ def set_deployment_values(folder, deployment):
     data = data[pd.notnull(data[camera_deployment_id])]
     data[camera_deployment_begin_date] = pd.to_datetime(data[camera_deployment_begin_date])
     data[camera_deployment_end_date] = pd.to_datetime(data[camera_deployment_end_date])
-    data[camera_deployment_begin_date] = data[camera_deployment_begin_date].index.map(lambda x: datetime.datetime.strftime(data[camera_deployment_begin_date][x], year_month_date_format))
-    data[camera_deployment_end_date] = data[camera_deployment_end_date].index.map(lambda x: datetime.datetime.strftime(data[camera_deployment_end_date][x], year_month_date_format))
+    data[camera_deployment_begin_date] = data[camera_deployment_begin_date].index.map(
+        lambda x: datetime.datetime.strftime(data[camera_deployment_begin_date][x], year_month_date_format))
+    data[camera_deployment_end_date] = data[camera_deployment_end_date].index.map(
+        lambda x: datetime.datetime.strftime(data[camera_deployment_end_date][x], year_month_date_format))
     if len(data.index) != 1:
         errors = True
         logging.error(error_message)
@@ -94,7 +106,7 @@ def set_project_values(folder, deployment):
                 deployment[i] = None
 
         # If project_owner_email os  null make it the same as principal_investigator_email (Validator requires value)
-        if deployment['project_owner_email'] == None:
+        if not deployment['project_owner_email']:
             deployment['project_owner_email'] = deployment['principal_investigator_email']
 
     except Exception as e:
@@ -105,12 +117,13 @@ def set_project_values(folder, deployment):
     # return the success of setting the function
     return errors
 
-def write_deployment(dir,deployment):
+
+def write_deployment(path, deployment):
     errors = False
-    error_message = "Error writing deployment file "+ os.path.join(output_directory, os.path.basename(dir)+".xml")
+    error_message = "Error writing deployment file " + os.path.join(output_directory, os.path.basename(path)+".xml")
     try:
         output = template.render(deployment=deployment)
-        out_file = open(os.path.join(output_directory, os.path.basename(dir)+".xml"),'w')
+        out_file = open(os.path.join(output_directory, os.path.basename(path)+".xml"), 'w')
         out_file.write(output)
         out_file.close()
     except Exception as e:
@@ -123,7 +136,7 @@ def get_access_constraint(constraints_array):
     if 'US' in constraints_array:
         constraint = 'US'
     elif 'CR' in constraints_array:
-        constraint= 'CR'
+        constraint = 'CR'
     elif 'EN' in constraints_array:
         constraint = 'EN'
     else:
@@ -131,14 +144,53 @@ def get_access_constraint(constraints_array):
 
     return constraint
 
-
-def create_sequences(folder, deployment):
+def create_emammal_sequences(folder,deployment):
     errors = False
-    error_message ="Could not process sequences"
+    error_message = "Could not process sequences"
+    try:
+        sequences = []
+        data = pd.read_csv(os.path.join(folder, SEQUENCE_FILE), dtype=str)
+        data = data[pd.notnull(data[fields["sequence"]["sequence_id"]])]
+        begin_date_time = fields["sequence"]["begin_date_time"]
+        end_date_time = fields["sequence"]["end_date_time"]
+        iucn_status = fields["sequence"]["iucn_status"]
+        data[begin_date_time] = pd.to_datetime(data[begin_date_time])
+        data[end_date_time] = pd.to_datetime(data[end_date_time])
+        access_constraints_array = list(set(data[fields["image"]["iucn_status"]].tolist()))
+        access_constraints = get_access_constraint(access_constraints_array)
+        deployment["access_constraint"] = access_constraints
+        for i in data.iterrows():
+            sequence_index = i[0] + 1
+            image_data = pd.read_csv(os.path.join(folder, IMAGE_FILE), dtype=str)
+            image_data = image_data[pd.notnull(image_data[fields["image"]["image_id"]])]
+            image_sequence_id = fields["image"]["image_sequence_id"]
+            image_data = image_data[(image_data[image_sequence_id] == str(sequence_index))]
+            sequence = {}
+            sequence["sequence_id"] = data.ix[sequence_index][image_sequence_id]
+            sequence["begin_date_time"] = data.ix[sequence_index][begin_date_time]
+            sequence["end_date_time"] = data.ix[sequence_index][end_date_time]
+            sequence["researcher_identifications"] = []
+            sequence["images"] = []
+
+
+
+
+
+    except Exception as e:
+        errors = True
+        print e
+        logging.error(error_message)
+        logging.error(e)
+
+    return True
+
+def create_wcs_sequences(folder, deployment):
+    errors = False
+    error_message = "Could not process sequences"
     try:
 
         sequences = []
-        data = pd.read_csv(os.path.join(folder,IMAGE_FILE), dtype=str)
+        data = pd.read_csv(os.path.join(folder, IMAGE_FILE), dtype=str)
         data = data[pd.notnull(data[fields["image"]["image_id"]])]
         date_time = fields["image"]["date_time"]
         iucn_status = fields["image"]["iucn_status"]
@@ -202,17 +254,27 @@ def create_sequences(folder, deployment):
         # End of sequences loop
 
         deployment["sequences"] = sequences
-    except Exception as e :
+    except Exception as e:
         errors = True
         logging.error(error_message)
         logging.error(e)
 
     return errors
 
+
+def get_required_fields():
+    if emammal_validator_type:
+        r_file = emammal_required_files
+    elif wcs_validator_type:
+        r_file = wcs_required_files
+    else:
+        r_file = []
+    return r_file
+
 def validate_required_files(directory):
     errors = False
     error_message = "No CSV file found in " + root_directory
-
+    required_files = get_required_fields()
     all_csv_files = glob.glob(directory+'/'+'*.csv')
     if len(all_csv_files) == 0:
         errors = True
@@ -226,8 +288,10 @@ def validate_required_files(directory):
             errors = True
     return errors
 
+
 def validate_fields(folder):
     errors = False
+    required_files = get_required_fields()
     for f in required_files:
         df = pd.read_csv(os.path.join(folder, f), dtype=str)
         headers =  list(df)
@@ -235,13 +299,15 @@ def validate_fields(folder):
             config_fields = fields["image"]
         elif f == PROJECT_FILE:
             config_fields = fields["project"]
-        else:
+        elif f == DEPLOYMENT_FILE:
             config_fields = fields["deployment"]
+        elif f == SEQUENCE_FILE:
+            config_fields = fields["sequence"]
 
         for i in config_fields:
             if not config_fields[i] in headers:
-                print 'Expexting field '+"`"+config_fields[i]+"`" +'in' +os.path.join(folder, f)
-                logging.error('Expexting field '+"`"+config_fields[i]+"`" +' in' +os.path.join(folder, f))
+                print 'Expecting field '+"`"+config_fields[i]+"`" +'in' + os.path.join(folder, f)
+                logging.error('Expecting field '+"`"+config_fields[i]+"`" +' in' + os.path.join(folder, f))
                 errors = True
     return errors
 
@@ -250,9 +316,9 @@ def main():
     if not os.path.isdir(root_directory):
         logging.error('Invalid Root Directory ' + root_directory)
         return
-
     for dir in get_dir_to_process_way(root_directory):
         deployment = {}
+
         errors_in_directories = validate_required_files(dir)
         if errors_in_directories:
             continue
@@ -263,7 +329,15 @@ def main():
 
         errors_project_values = set_project_values(dir, deployment)
         errors_deployment_values = set_deployment_values(dir, deployment)
-        errors_sequence_values = create_sequences(dir,deployment)
+
+        errors_sequence_values = None
+
+        if wcs_validator_type:
+            errors_sequence_values = create_wcs_sequences(dir,deployment)
+        if emammal_validator_type:
+            errors_sequence_values = create_emammal_sequences(dir,deployment)
+            print errors_sequence_values
+
         errors_write_deployment = write_deployment(dir, deployment)
 
         if errors_project_values or errors_deployment_values or errors_sequence_values or errors_write_deployment:
