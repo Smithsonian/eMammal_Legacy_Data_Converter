@@ -26,8 +26,8 @@
     <ProjectLongitude>{{ deployment['project_longitude'] | default('', true)  }}</ProjectLongitude>
     <CountryCode>{{ deployment['country_code'] }}</CountryCode>
     <ProjectDataAccessandUseConstraints>{{ deployment['project_data_use_and_constraints'] | default('', true)  }}</ProjectDataAccessandUseConstraints>
-    <SubProjectId></SubProjectId>
-    <SubProjectName></SubProjectName>
+    <SubProjectId>{{ deployment['subproject_id'] | default('default subproject', true) }}</SubProjectId>
+    <SubProjectName>{{ deployment['subproject_name'] | default('default subproject', true) }}</SubProjectName>
     <SubProjectDesign></SubProjectDesign>
     <PlotName></PlotName>
     <PlotTreatment></PlotTreatment>
@@ -81,10 +81,10 @@
             {% for ident2 in sequence['researcher_identifications'] %}
             <Identification>
                 <IUCNId>{{ ident2['iucn_id'] | default('', true) }}</IUCNId>
-                <TSNId></TSNId>
+                <TSNId>{{ ident2['tsn_id'] | default('', true) }}</TSNId>
                 <SpeciesScientificName>{{ ident2['sn'] | default('', true) }}</SpeciesScientificName>
-                <SpeciesCommonName></SpeciesCommonName>
-                <Count></Count>
+                <SpeciesCommonName>{{ ident2['cn'] | default('', true) }}</SpeciesCommonName>
+                <Count>{{ ident2['count'] | default('', true) }}</Count>
                 <Age>{{ ident2['age'] | default('', true) }}</Age>
                 <Sex>{{ ident2['sex'] | default('', true) }}</Sex>
                 <IndividualId>{{ ident2['individual_id'] | default('', true) }}</IndividualId>
@@ -99,7 +99,7 @@
             <ImageFileName>{{ image['file_name'] | default('', true) }}</ImageFileName>
             <ImageDateTime>{{ image['date_time'] | default('', true) }}</ImageDateTime>
             <ImageOrder>{{ image['image_order'] | default('', true) }}</ImageOrder>
-            <ImageInterestRanking></ImageInterestRanking>
+            <ImageInterestRanking>{{ image['interest_rank'] | default('', true) }}</ImageInterestRanking>
             <digitalOrigin>{{ image['digital_origin'] | default('', true) }}</digitalOrigin>
             <PhotoType>{{ image['photo_type'] | default('', true) }}</PhotoType>
             <PhotoTypeIdentifications>

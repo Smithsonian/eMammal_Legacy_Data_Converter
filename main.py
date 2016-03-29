@@ -11,7 +11,8 @@ import datetime
 from config import fields as f_map
 import logging
 
-#Test URl = /Users/jnordling/projects/emammal-csv-manifest/output/L-HTL11-A01B.xml
+# Test URl = /Users/jnordling/projects/emammal-csv-manifest/output/L-HTL11-A01B.xml
+# /Users/jnordling/projects/emammal-csv-manifest/output/emammal-sample-data.xml
 
 
 root_directory = '/Users/jnordling/projects/emammal-csv-manifest/sample-data/emammal-sample-data'
@@ -97,7 +98,9 @@ def set_project_values(folder, deployment):
         return errors
     try:
         data[publish_date] = pd.to_datetime(data[publish_date])
-        data[publish_date] = data[publish_date].index.map(lambda x: datetime.datetime.strftime(data[publish_date][x], year_month_date_format))
+        if not pd.isnull(data[publish_date][0]):
+            data[publish_date] = data[publish_date].index.map(lambda x: datetime.datetime.strftime(data[publish_date][x], year_month_date_format))
+
         for i in fields['project']:
             csv_mapped_name = fields['project'][i]
             if not pd.isnull(data[csv_mapped_name]).tolist()[0]:
@@ -156,25 +159,48 @@ def create_emammal_sequences(folder,deployment):
         iucn_status = fields["sequence"]["iucn_status"]
         data[begin_date_time] = pd.to_datetime(data[begin_date_time])
         data[end_date_time] = pd.to_datetime(data[end_date_time])
-        access_constraints_array = list(set(data[fields["image"]["iucn_status"]].tolist()))
+        access_constraints_array = list(set(data[iucn_status].tolist()))
         access_constraints = get_access_constraint(access_constraints_array)
         deployment["access_constraint"] = access_constraints
         for i in data.iterrows():
-            sequence_index = i[0] + 1
+            sequence_index = i[0]
             image_data = pd.read_csv(os.path.join(folder, IMAGE_FILE), dtype=str)
             image_data = image_data[pd.notnull(image_data[fields["image"]["image_id"]])]
             image_sequence_id = fields["image"]["image_sequence_id"]
-            image_data = image_data[(image_data[image_sequence_id] == str(sequence_index))]
+            image_data = image_data[(image_data[image_sequence_id] == str(sequence_index + 1))]
+
             sequence = {}
             sequence["sequence_id"] = data.ix[sequence_index][image_sequence_id]
-            sequence["begin_date_time"] = data.ix[sequence_index][begin_date_time]
-            sequence["end_date_time"] = data.ix[sequence_index][end_date_time]
+            sequence["begin_date_time"] = datetime.datetime.strftime(data.ix[sequence_index][begin_date_time],date_time_format)
+            sequence["end_date_time"] = datetime.datetime.strftime(data.ix[sequence_index][end_date_time],date_time_format)
             sequence["researcher_identifications"] = []
             sequence["images"] = []
 
-
-
-
+            # researcher_identifications
+            r_indent = {}
+            for j in fields['sequence']:
+                csv_mapped_name = fields['sequence'][j]
+                if not pd.isnull(data[csv_mapped_name][sequence_index]):
+                    r_indent[j] = data.ix[sequence_index][csv_mapped_name]
+                else:
+                    r_indent[j] = None
+            sequence["researcher_identifications"].append(r_indent)
+            # image_identifications
+            image_count = 1
+            for img in image_data.iterrows():
+                image = {}
+                image_index = img[0] # int value of which image in seq
+                image["image_order"] = image_count
+                for f in fields['image']:
+                    img_csv_mapped_name = fields['image'][f]
+                    if not pd.isnull(image_data[img_csv_mapped_name][image_index]):
+                        image[f] = image_data[img_csv_mapped_name][image_index]
+                    else:
+                        image[f] = None
+                image_count = image_count + 1
+                sequence["images"].append(image)
+            sequences.append(sequence)
+        deployment["sequences"] = sequences
 
     except Exception as e:
         errors = True
@@ -182,7 +208,7 @@ def create_emammal_sequences(folder,deployment):
         logging.error(error_message)
         logging.error(e)
 
-    return True
+    return errors
 
 def create_wcs_sequences(folder, deployment):
     errors = False
@@ -230,13 +256,14 @@ def create_wcs_sequences(folder, deployment):
                     else:
                         image[i] = None
                         r_indent[i] = None
+                r_indent['count'] = None
                 sequence["researcher_identifications"].append(r_indent)
 
                 ## XML Requires these values to be lower case
                 if image["photo_type"]:
                     image["photo_type"] = image["photo_type"].lower()
                 if image["date_time"]:
-                    image["date_time"] = datetime.datetime.strftime(image["date_time"],date_time_format)
+                    image["date_time"] = datetime.datetime.strftime(image["date_time"], date_time_format)
 
                 access_constraints_array.append(mask[iucn_status][index])
                 sequence["images"].append(image)
@@ -335,8 +362,7 @@ def main():
         if wcs_validator_type:
             errors_sequence_values = create_wcs_sequences(dir,deployment)
         if emammal_validator_type:
-            errors_sequence_values = create_emammal_sequences(dir,deployment)
-            print errors_sequence_values
+            errors_sequence_values = create_emammal_sequences(dir, deployment)
 
         errors_write_deployment = write_deployment(dir, deployment)
 
