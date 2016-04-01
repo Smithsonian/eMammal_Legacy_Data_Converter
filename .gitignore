@@ -3,4 +3,4 @@ emammal-sample-data
 .idea
 venv
 output/*
-
+*.iml

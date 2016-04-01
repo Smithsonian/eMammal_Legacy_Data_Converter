@@ -10,13 +10,18 @@ import glob
 import datetime
 from config import fields as f_map
 import logging
+import sys
 
-# Test URl = /Users/jnordling/projects/emammal-csv-manifest/output/L-HTL11-A01B.xml
-# /Users/jnordling/projects/emammal-csv-manifest/output/emammal-sample-data.xml
+sample_root_direcotry = './sample-data/emammal-sample-data'
+sample_output_direcotry = './emammal-csv-manifest/output'
 
+# Setting up the sys arguments that could be passed or setting up defaults
+root_directory = sample_root_direcotry if len(sys.argv)<= 1 else sys.argv[1]
+output_directory = sample_output_direcotry if len(sys.argv)<= 1 else sys.argv[2]
+input_type = '0' if len(sys.argv) <= 1 else sys.argv[3]
+emammal_validator_type = True if input_type == '1' else False
+wcs_validator_type = True if input_type == '0' else False
 
-root_directory = '/Users/jnordling/projects/emammal-csv-manifest/sample-data/emammal-sample-data'
-output_directory = '/Users/jnordling/projects/emammal-csv-manifest/output'
 
 DEPLOYMENT_FILE = "Deployment.csv"
 IMAGE_FILE = "Image.csv"
@@ -36,8 +41,6 @@ template = env.get_template('manifest_template.xml')
 date_time_format = '%Y-%m-%dT%H:%M:%S'
 year_month_date_format = '%Y-%m-%d'
 
-emammal_validator_type = True
-wcs_validator_type = False
 
 
 def get_dir_to_process_way(directory):
@@ -290,6 +293,8 @@ def create_wcs_sequences(folder, deployment):
 
 
 def get_required_fields():
+    print 'emammal_validator_type', emammal_validator_type
+    print 'wcs_validator_type', wcs_validator_type
     if emammal_validator_type:
         r_file = emammal_required_files
     elif wcs_validator_type:
@@ -367,7 +372,11 @@ def main():
         errors_write_deployment = write_deployment(dir, deployment)
 
         if errors_project_values or errors_deployment_values or errors_sequence_values or errors_write_deployment:
+            logging.error("Error Occurred for on" + dir )
             continue
+        else:
+            logging.warn("Process Finished >" + dir)
+
 
 
 
