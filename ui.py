@@ -4,6 +4,7 @@ import tkFileDialog
 from ttk import Frame, Button, Style, Label, Entry
 import subprocess
 import os
+
 # python create_manifest.py input_dir output_dir type
 # python create_manifest.py input_dir output_dir type
 
@@ -35,13 +36,18 @@ class MainFrame(Frame):
             print 'wcs_validator_type'
         else:
             print 'emammal_validator_type'
-        print 'self.radio_type', self.radio_type, type(self.radio_type)
-        print 'self.root_directory', self.root_directory, type(self.root_directory)
-        print 'self.output_directory',self.output_directory,type(self.output_directory)
+        # print 'self.radio_type', self.radio_type, type(self.radio_type)
+        # print 'self.root_directory', self.root_directory, type(self.root_directory)
+        # print 'self.output_directory',self.output_directory,type(self.output_directory)
 
         create_manifest = os.path.join(os.path.dirname(os.path.realpath(__file__)),'create_manifest.py')
         proc = subprocess.Popen(["python", create_manifest,self.root_directory.get(), self.output_directory.get(), str(self.radio_type)])
         proc.wait()
+        with open(os.path.join(os.path.dirname(os.path.realpath(__file__)),'error.log')) as f:
+            content = f.readlines()
+            for i in content:
+                self.results.insert(END,i)
+
 
 
     def update_type_value(self):
@@ -61,6 +67,7 @@ class MainFrame(Frame):
 
         self.root_directory = StringVar(self.parent)
         self.output_directory = StringVar(self.parent)
+        self.results = StringVar()
         self.radio_type = IntVar()
         self.radio_type = 0
 
@@ -88,7 +95,6 @@ class MainFrame(Frame):
         entry2 = Entry(frame2, textvariable= self.output_directory)
         entry2.pack(fill=X, padx=5, expand=True)
 
-
         frameRadio = Frame(self)
         frameRadio.pack(fill=X)
 
@@ -109,9 +115,8 @@ class MainFrame(Frame):
         lbl3 = Label(frame3, text="Results", width=15)
         lbl3.pack(side=LEFT, anchor=N, padx=5, pady=5)
 
-        txt = Text(frame3)
-        txt.pack(fill=BOTH, pady=5, padx=5, expand=True)
-        txt.config(state=DISABLED)
+        self.results = Text(frame3)
+        self.results.pack(fill=BOTH, pady=5, padx=5, expand=True)
 
         closeButton = Button(self, text="Close",command=self.quit)
         closeButton.pack(side=RIGHT, padx=5, pady=5)
