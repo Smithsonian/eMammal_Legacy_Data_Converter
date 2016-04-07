@@ -12,3 +12,5 @@ This is a python desktop tool for to convert Emammal Legacy Data into into a sta
 
 
 ## Run
+
+python run.py
