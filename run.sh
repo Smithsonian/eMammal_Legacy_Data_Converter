@@ -1,0 +1,1 @@
+/Users/jnordling/projects/emammal-csv-manifest/venv/bin/python /Users/jnordling/projects/emammal-csv-manifest/ui.pyw

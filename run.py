@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 from Tkinter import *
 import tkFileDialog
 from ttk import Frame, Button, Style, Label, Entry
@@ -47,7 +47,6 @@ class MainFrame(Frame):
             content = f.readlines()
             for i in content:
                 self.results.insert(END,i)
-
 
 
     def update_type_value(self):
@@ -131,7 +130,6 @@ def main():
     root.geometry("600x600")
     app = MainFrame(root)
     root.mainloop()
-
 
 if __name__ == '__main__':
     main()
