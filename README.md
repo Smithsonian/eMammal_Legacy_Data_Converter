@@ -10,7 +10,9 @@ This is a python desktop tool for to convert Emammal Legacy Data into into a sta
 
 > pip install -r requirements.txt
 
-
 ## Run
 
 python run.py
+
+
+![alt tag](./screenshot/emammal_tool_screenshot.png)
