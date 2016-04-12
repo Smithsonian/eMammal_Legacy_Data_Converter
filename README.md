@@ -46,6 +46,8 @@ This is a python desktop tool for to convert Emammal Legacy Data into into a sta
 #### Install python package manager (PIP)
   [Online instructions](https://pip.pypa.io/en/stable/installing/)
 
+  Download PIP https://bootstrap.pypa.io/get-pip.py
+
     C:~\> python get-pip.py
     C:~\> pip install -r requirements.txt
 
