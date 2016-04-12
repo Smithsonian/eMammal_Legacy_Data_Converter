@@ -13,7 +13,7 @@ import logging
 import sys
 
 sample_root_direcotry = './sample-data/emammal-sample-data'
-sample_output_direcotry = './emammal-csv-manifest/output'
+sample_output_direcotry = './output'
 
 # Setting up the sys arguments that could be passed or setting up defaults
 root_directory = sample_root_direcotry if len(sys.argv)<= 1 else sys.argv[1]
@@ -21,6 +21,12 @@ output_directory = sample_output_direcotry if len(sys.argv)<= 1 else sys.argv[2]
 input_type = '0' if len(sys.argv) <= 1 else sys.argv[3]
 emammal_validator_type = True if input_type == '1' else False
 wcs_validator_type = True if input_type == '0' else False
+
+# print sample_root_direcotry
+# print output_directory
+# print input_type
+# print emammal_validator_type
+# print wcs_validator_type
 
 
 DEPLOYMENT_FILE = "Deployment.csv"
@@ -133,6 +139,7 @@ def write_deployment(path, deployment):
         out_file.write(output)
         out_file.close()
     except Exception as e:
+        print e
         logging.error(error_message)
         errors = True
     return errors
@@ -286,6 +293,7 @@ def create_wcs_sequences(folder, deployment):
         deployment["sequences"] = sequences
     except Exception as e:
         errors = True
+        print e
         logging.error(error_message)
         logging.error(e)
 
@@ -293,8 +301,8 @@ def create_wcs_sequences(folder, deployment):
 
 
 def get_required_fields():
-    print 'emammal_validator_type', emammal_validator_type
-    print 'wcs_validator_type', wcs_validator_type
+    # print 'emammal_validator_type', emammal_validator_type
+    # print 'wcs_validator_type', wcs_validator_type
     if emammal_validator_type:
         r_file = emammal_required_files
     elif wcs_validator_type:
@@ -347,6 +355,7 @@ def validate_fields(folder):
 def main():
     if not os.path.isdir(root_directory):
         logging.error('Invalid Root Directory ' + root_directory)
+        print('Invalid Root Directory ' + root_directory)
         return
     for dir in get_dir_to_process_way(root_directory):
         deployment = {}
@@ -365,7 +374,9 @@ def main():
         errors_sequence_values = None
 
         if wcs_validator_type:
+            print dir
             errors_sequence_values = create_wcs_sequences(dir,deployment)
+
         if emammal_validator_type:
             errors_sequence_values = create_emammal_sequences(dir, deployment)
 
@@ -376,6 +387,7 @@ def main():
             continue
         else:
             logging.warn("Process Finished >" + dir)
+
 
 
 

@@ -100,10 +100,10 @@ class MainFrame(Frame):
         lbl2 = Label(frameRadio, text="Manifest Type", width=15)
         lbl2.pack(side=LEFT, padx=5, pady=5)
 
-        radio_emammal = Radiobutton(frameRadio, text="Emmamal", variable=self.radio_type, value=1,command=self.update_type_value)
+        radio_emammal = Radiobutton(frameRadio, text="eMammal xmlVerifier-1.0.2", variable=self.radio_type, value=1,command=self.update_type_value)
         radio_emammal.pack(side=LEFT, padx=5, pady=5)
 
-        radio_classic = Radiobutton(frameRadio, text="Classic", variable=self.radio_type,value=0,command=self.update_type_value)
+        radio_classic = Radiobutton(frameRadio, text="WSC eMammal Classic", variable=self.radio_type,value=0,command=self.update_type_value)
         radio_classic.pack(side=LEFT, padx=5, pady=5)
 
         radio_classic.select()
