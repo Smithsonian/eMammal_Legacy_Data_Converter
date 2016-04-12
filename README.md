@@ -19,7 +19,7 @@ This is a python desktop tool for to convert Emammal Legacy Data into into a sta
 
  If and errors try one of the two methods
 
-    C:\> [Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27\ArcGIS10.2;C:\Python27\ArcGIS10.2\Scripts", "Machine")
+    C:\> [Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27;C:\Python27\Scripts", "Machine")
 
   **OR**
 
