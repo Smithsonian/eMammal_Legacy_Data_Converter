@@ -6,8 +6,8 @@ This is a python desktop tool for to convert Emammal Legacy Data into into a sta
   - [Python 2.7.*](https://www.python.org/downloads/)
   - [Python Package manager (PIP)](https://pip.pypa.io/en/stable/installing/)
 
-## Install on Windows
-###  Step 1: Environment variables
+## Install
+####  Step 1: Set Windows Environment variables (OSX can skip to step 2)
  Confirm python & the python/scripts directory are pathed to the system environment variables.
 
 ###### --IMPORTANT--
